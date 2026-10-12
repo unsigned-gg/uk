@@ -1,0 +1,20 @@
+[package]
+name = "uk"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Pure-Rust microkernel domain abstractions, zero-cost systems interfaces, and bare-metal sympathy."
+
+[lints]
+workspace = true
+
+[dependencies]
+uk-domain = { path = "../uk-domain" }
+anyhow.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
